@@ -81,7 +81,7 @@ build:
     - branches
 
 test:
- services:
+  services:
     - postgres:latest
   variables:
     POSTGRES_DB: postgres
